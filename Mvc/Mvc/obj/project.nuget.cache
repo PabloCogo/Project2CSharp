@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iks8wu9N0He7BC5iHQM6IKPeft91TR0bYVul91ftrm89acuyA1FOJn9uXBGmSOcUYH7i+4pBMFGd9JedyEbc7g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pablo\\source\\repos\\API && MVC 2\\Mvc\\Mvc\\Mvc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pablo\\.nuget\\packages\\restsharp\\108.0.1\\restsharp.108.0.1.nupkg.sha512",
+    "C:\\Users\\pablo\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

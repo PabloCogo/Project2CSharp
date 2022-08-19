@@ -1,0 +1,27 @@
+﻿@model Mvc.Models.ProductModel
+@{
+    ViewData["Title"] = "Cadastro";
+}
+<form asp-action="NewProduct">
+
+    <div class=" form-row">
+        <input type="hidden" asp-for="Id">
+        <div class="form-group col-md-12">
+            <label class="col-form-label">Nome do produto</label>
+            <input type="text" class="form-control" placeholder="Nome do produto" autofocus asp-for="Product_title" />
+            <span class="field-validation-valid text-danger" asp-validation-for="Product_title"></span>
+        </div>
+        <div class="form-group col-md-12">
+            <label class="col-form-label">Código de barras</label>
+            <input type="text" class="form-control" placeholder="Código de barras" asp-for="Barcode" />
+            <span class="field-validation-valid text-danger" asp-validation-for="Barcode"></span>
+        </div>
+    </div>
+
+    <br />
+    <div class="d-flex" style="box-sizing:border-box; max-width: 100%">
+        <button type="submit" class="btn btn-primary mr-1" style="width: 50%">Salvar</button>
+        <button type="reset" class="btn btn-secondary" style="width: 50%">Cancelar</button>
+    </div>
+
+</form>
